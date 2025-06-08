@@ -1,0 +1,4 @@
+text = "Los Angeles,[a] often referred to by its initials L.A., is the most populous city in the U.S. state of California, and the commercial, financial, and cultural center of Southern California. With an estimated 3,878,704 residents within the city limits as of 2024,[8] it is the second-most populous in the United States, behind only New York City. Los Angeles has an ethnically and culturally diverse population, and is the principal city of a metropolitan area of 12.9 million people (2024). Greater Los Angeles, a combined statistical area that includes the Los Angeles and Riverside–San Bernardino metropolitan areas, is a sprawling metropolis of over 18.5 million residents."
+
+with open("la_utf16.txt", "w", encoding="utf-16") as f:
+    f.write(text)

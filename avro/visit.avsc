@@ -1,0 +1,13 @@
+{
+  "type": "record",
+  "name": "visit",
+  "fields": [
+    { "type": "string", "name": "url", "doc": "URL of the page" },
+    { "type": "string", "name": "customerHash" },
+    {
+      "type": "string",
+      "name": "createdAt",
+      "doc": "Time when the event is received by the back-end"
+    }
+  ]
+}
